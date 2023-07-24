@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugati</title>
+    <link href="./bootstrap/css/bootstrap.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+.box{
+    height: 30rem;
+}
+</style>
+<body>
+
+<nav class="hide">
+<div id="brand-div">
+<a href="" id="brand">Certii</a>
+
+
+<div id="btn" class="btn">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+ </div>
+</div>
+
+<ul id="drop">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li> <a href="">Contact</a></li>
+    <li><a href="">FAQ</a></li>
+    <li><a href="">Login</a></li>
+</ul>
+</nav>
+
+    <div class="container">
+<div id="bod">
+<div class="container" id="clickdev">
+    <div class="dev bg-dark mx-auto col-md-7 text-white">
+        <div class="p-5">
+            <h5>Lorem ipsum dolor sit amet consectetur,
+                 adipisicing elit. Consequatur eos, quis
+                  totam suscipit fugit tenetur delectus
+                   ipsa eius similique rem magni
+                    doloremque adipisci commodi
+                    erspiciatis nisi fugiat,
+                 voluptates esse nulla incidunt!
+                Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.
+                 Quod in doloribus pariatur
+                  facilis ipsum praesentium incidunt
+                 aspernatur fugit dolore sapiente.</h5>
+ Lorem ipsum dolor sit amet consectetur 
+ adipisicing elit. Vero, dolores laborum
+  recusandae sequi est magnam totam maiores
+   aspernatur libero doloremque atque dolor
+    accusantium nobis iure dolorum minima? 
+    Beatae, officia quos officiis atque ea 
+    possimus eveniet minus itaque harum 
+    dicta nulla, vero eaque omnis perspiciatis 
+    reprehenderit excepturi? Assumenda iure 
+    fuga rem minima repellendus vero sequi 
+    eligendi inventore, commodi nostrum quia
+     at explicabo libero modi ad corrupti 
+     nam provident eos accusantium
+      aspernatur in officia error? Nemo 
+      ratione ab odio omnis quod, eos esse 
+      labore quidem molestiae cumque 
+      perferendis nihil quibusdam qui 
+      officiis alias consequuntur vel
+       quisquam perspiciatis
+  molestias earum. Rem, quae enim.   
+         <button class="btn btn-primary
+          back mx-auto"
+            onclick="goback()">Click To Go Back</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="col-md-5 my-3">
+    <h4 class="text-center">Your Details</h4>
+    <div class="p-3">
+        <span>NAME =</span><h5 id="thename"></h5>
+    </div>
+    <div class="p-3">
+        <span>GENDER =</span><h5 id="thegen"></h5>
+    </div>
+    </div>
+
+    <span>Welcome</span><h3 id="header"></h3>
+
+    <br>
+
+    
+<div class="col-md-5 mx-auto pt-3">
+    <button class="btn btn-primary devbtn" id="btnback"
+     onclick="clickme()">Click To Modal</button>
+    </div>
+<!-- 
+    5. modes of display
+
+    1 console
+    2. alert
+    3. comfirm
+    4. prompt
+    5.DOM
+ -->
+
+
+ <div class="container cal py-5">
+    <div class="">
+<div class="calculator">
+    <input type="text"
+     class="screen" placeholder="0" 
+     id="input">
+    <br>
+    <div class="buttons mt-5">
+        <button id="seven">7</button>
+        <button id="eight">8</button>
+        <button id="nine">9</button>
+        <button class="warn" id="plus">+</button>
+        <button id="four">4</button>
+        <button id="five">5</button>
+        <button id="six">6</button>
+        <button class="warn" id="minus">-</button>
+        <button id="one">1</button>
+        <button id="two">2</button>
+        <button id="three">3</button>
+        <button class="warn" id="multi">*</button>
+        <button id=zero>0</button>
+        <button id="dot">.</button>
+        <button id="divide">/</button>
+        <button id="equals">=</button>
+    </div>
+    <br>
+    <button id="clear">CLEAR</button>
+    <button id="delete">Cancel</button>  
+  
+</div>
+    </div>
+ </div>
+
+
+
+ <input type="text" id="inp">
+ <br>
+
+ <div id="box" style="margin-top: 50px;">
+<span id="texts">Barcelona is the greatest football club of all time!</span>
+ </div>
+
+
+
+ <div class="col-md-6 mx-auto mt-5">
+<div class="card p-5">
+<h1>Messi is the GOAT</h1>
+<button class="btn btn-primary w-100"
+ id="press" 
+ onclick="recordLog()">Confirm</button>
+
+ <button class="btn btn-dark w-100"
+ id="press2">Confirm 2</button>
+</div>
+ </div>
+
+
+
+<div class="container my-5">
+    <div class="col-md-5 mx-auto">
+        <input type="text"
+         class="p-3" id="input1" name="" placeholder="Generate a random pass....." id="">
+<button onclick="Generate()" class="p-3"
+ type="button" >GENERATE</button>
+    </div>
+</div>
+</div>
+
+
+
+
+<div class="container text-center my-3">
+<div class="row">
+        <div class="box col-md-3  mx-auto"> </div>
+        <div class="box1 col-md-3 mx-auto"> </div>
+        <div class="box2 col-md-3  mx-auto"> </div>
+</div>
+    </div>
+    <button class="btn-primary px-5 btn py-3 mt-3"
+    onclick="colorPicker()">Change</button>
+</div>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

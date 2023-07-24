@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./FONTA/css/all.css">
+</head>
+
+<style>
+
+    dl{
+        margin-left: 1rem;
+    }
+    dd{
+        color: gray;
+    }
+
+    input{
+        width: 70%;
+    }
+    i:nth-of-type(1){
+        color: grey;
+        position: absolute;
+        left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    button {
+        color: gray;
+        border: none;
+        background-color: white;
+        position: absolute;
+        right: 9.5rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    .col-md-11{
+        height: 2px;
+        background-color: rgb(206, 204, 204);
+    }
+    .bord{
+        border-left: 3px solid blue;
+    }
+    body{
+        background-color: blue;
+    }
+</style>
+<body >
+    <div class="container border-5 mx-auto col-md-4 bg-white py-5 mt-5">
+        <h1 class="text-center">English Dictionary</h1>
+        <div class="search">
+            <input type="text"
+             placeholder="Search a word" 
+             class="px-5 py-2" id="search">
+        <i class="fa fa-search" 
+        aria-hidden="true"></i>
+        </div>
+        <br> <h3 id="word"></h3>
+        <div class="text-left" id="box">
+           
+            <p id="word-class">
+          
+            </p>
+            <div class=" col-md-11"></div>
+           <div class="bord mt-3">
+            <dl>
+                <dt>Meaning</dt>
+                <dd id="define">
+                
+                </dd>
+            </dl>
+           </div>
+            <div class=" col-md-11"></div>
+            <div class="bord mt-3" id="bord">
+                <dl>
+                    <dt>Example</dt>
+                    <dd id="example">
+                     
+                    </dd>
+                </dl>
+                 
+            </div>
+            <div class=" col-md-11"></div>
+            <div class="bord mt-3">
+                <dl>
+                    <dt>Synonyms</dt>
+                    <dd id="synonym">
+                       
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+<script src="./indextwo.js"></script>
+</body>
+</html>
